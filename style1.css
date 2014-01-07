@@ -1,0 +1,503 @@
+  body { 
+			  margin:0;
+			  padding:0;
+			  background: url("images/bg-body1.gif");
+			  background-repeat:repeat-x;
+			  position: relative;
+	  }
+	  
+
+	  
+   #page{
+		
+   
+   }	
+   
+   #header{
+	  width:960px;
+	  height:72px;
+	  position:relative;
+	  margin:0 auto;
+	  background-color:#1da398;
+   }
+		  
+	#header a#logo{
+	   position:relative;
+	   z-index:100;
+	}		
+	
+	#header a#logo img{
+		padding-top: 3.4px;
+	  border:0; 
+	}
+	
+	/**-------------- Navigation style ---------------**/
+	#header ul.navigation{
+		margin:-82px 0 0 300px;
+		padding:0;
+		list-style: none;		
+	}
+	
+	#header ul.navigation li{
+	position: relative;
+		float:left;
+		height:35px;
+		width:107px;
+	}
+	
+  
+	
+	#header  li a{
+	  text-decoration:none;
+	  color:#2c1d00;
+	  font-family:"Myriad Pro";
+	  font-size:14px;
+	  font-weight:bold;
+	  display:block; 
+	  line-height:35px;
+	  background:url("images/menu-separator.gif");
+	  background-repeat:no-repeat;
+	  background-position:right; 
+	  height:35px;
+	  padding:0 20px 0 20px;
+	  text-align:center;
+	  width:67px;
+	}
+	
+	#header li a:hover{
+	  color:#ffffff;
+	  
+	}
+	
+	
+			#header  li ul{
+			z-index:1;
+				position: absolute;
+				display: none;
+				width: 10em;
+				list-style: none;
+			}
+			
+			#header  li:hover ul{
+			display:block;
+			}
+			
+			#header li ul li{
+			width: 100%;
+			}
+			
+			#header li ul li a{
+			text-decoration:none;
+			color:#2c1d00;
+			font-family:"Myriad Pro";
+			font-size:14px;
+			font-weight:bold;
+			display:block; 
+			line-height:35px;
+			background:url("images/menu-separator.gif");
+			background-repeat:no-repeat;
+			background-position:right; 
+			background-color: #d3d840;
+			height:35px;
+			padding:0 20px 0 20px;
+			text-align:center;
+			width:100px;
+			}
+	
+  /**-------------- Body style ---------------**/
+	#body div.banner{
+	   background:url("images/banner.jpg");
+	   background-position:center;
+	   background-repeat:no-repeat;
+	   height:400px;
+	}
+	
+	#main {
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    margin: 20px auto;
+    padding: 0;
+    width: 958px;
+}
+  /**-------------- COntent of product style ---------------**/
+.productContent{
+  margin-left: auto;
+  margin-right: auto;
+   position: relative ;
+  top: 100px; 
+  width:700px;
+}
+
+	#proD{
+	float:right;
+	}
+
+.productContent h3{
+color: red;
+}
+
+.cart {
+	float: right;
+	margin-left: 40px;
+	margin-top: 10px;
+	width: 11%;
+	height: 11%;
+}
+
+.cart:hover {
+	float: right;
+	margin-left: 40px;
+	width: 12%;
+	height: 12%;
+}
+
+.contentImage {
+	width: 200px;
+	height: 200px;
+    position: absolute;
+	top: 80px;
+	left: 400px;
+}
+.productContent span{
+color: black;
+}
+.productContent p {
+font-size: 1em;
+line-height: 1.25em;
+margin: 1.25em 0;
+text-align: justify;
+}
+	
+	
+	/**-------------- Sign up ---------------**/
+  p, h1, form, button{border:0; margin:0; padding:0;}
+  .spacer{clear:both; height:1px;}
+  
+  /* ----------- My Form ----------- */
+  .myform{
+  margin:0 auto;
+  width:400px;
+  padding:14px;
+  }
+  
+  /* ----------- stylized ----------- */
+  #stylized{
+  position: relative ;
+  top: 100px;
+  border:solid 2px #b7ddf2;
+  background:#ebf4fb;
+  }
+  #stylized h1 {
+  font-size:14px;
+  font-weight:bold;
+  margin-bottom:8px;
+  }
+  #stylized p{
+  font-size:11px;
+  color:#666666;
+  margin-bottom:20px;
+  border-bottom:solid 1px #b7ddf2;
+  padding-bottom:10px;
+  }
+  #stylized label{
+  display:block;
+  font-weight:bold;
+  text-align:right;
+  width:140px;
+  float:left;
+  }
+  #stylized .small{
+  color:#666666;
+  display:block;
+  font-size:11px;
+  font-weight:normal;
+  text-align:right;
+  width:140px;
+  }
+  #stylized input{
+  float:left;
+  font-size:12px;
+  padding:4px 2px;
+  border:solid 1px #aacfe4;
+  width:200px;
+  margin:2px 0 20px 10px;
+  }
+  
+    #stylized select{
+  float:left;
+  font-size:12px;
+  padding:4px 2px;
+  border:solid 1px #aacfe4;
+  width:200px;
+  margin:2px 0 20px 10px;
+  }
+  #stylized button{
+  clear:both;
+  margin-left:150px;
+  width:125px;
+  height:31px;
+  background:#666666;
+  text-align:center;
+  line-height:31px;
+  color:#FFFFFF;
+  font-size:11px;
+  font-weight:bold;
+  }
+  
+  /**---------------Sign in-------------**/
+  
+  /* ----------- My Form ----------- */
+  .signinform{
+z-index:1;
+  margin:0 auto;
+  width:200px;
+  padding: 10px;
+  }
+  
+  /*--------styleform-------*/
+  #signin{
+  z-index:1;
+	  position: fixed;
+	  right: 50px;
+	  top: 100px; 
+  border:solid 2px #b7ddf2;
+  background:#ebf4fb;
+  }
+  #signin h1 {
+  font-size:14px;
+  font-weight:bold;
+  margin-bottom:8px;
+  }
+  #stylized p{
+  font-size:11px;
+  color:#666666;
+  margin-bottom:20px;
+  border-bottom:solid 1px #b7ddf2;
+  padding-bottom:10px;
+  }
+  #signin label{
+  display:block;
+  font-weight:bold;
+  text-align:right;
+  width:100px;
+  float:left;
+  }
+  
+  #signin input{
+  float:left;
+  font-size:12px;
+  padding:4px 2px;
+  border:solid 1px #aacfe4;
+  width:180px;
+  margin:2px 0 20px 10px;
+  }
+  #signin button{
+  clear:both;
+  margin-left:80px;
+  width:60px;
+  height:31px;
+  background:#666666;
+  text-align:center;
+  line-height:31px;
+  color:#FFFFFF;
+  font-size:11px;
+  font-weight:bold;
+  }
+  
+     #signin a{
+  clear:both;
+  margin-left:10px;
+  width: 180px;
+  text-decoration:none;
+  border: 1px solid black;
+  background:#6f2c2c;
+  text-align:center;
+  line-height:31px;
+  color:#FFFFFF;
+  font-size:15px;
+  font-weight:bold;
+  float:left;
+  }
+    #signin a:hover{
+  clear:both;
+  margin-left:10px;
+  width: 180px;
+  text-decoration:none;
+  border: 1px solid black;
+  background:#d38c8c;
+  text-align:center;
+  line-height:31px;
+  color:#FFFFFF;
+  font-size:15px;
+  font-weight:bold;
+  float:left;
+  }
+    #signin textarea{
+  float:left;
+  font-size:12px;
+  padding:4px 2px;
+  border:solid 1px #aacfe4;
+  margin:2px 0 20px 10px;
+  }
+  
+
+/* ------------------------- SIDE DEALS -------------------------------- */
+
+.side-deals {
+
+}
+.side-deal, .clsrecentbox {
+    border: 1px solid #EAEAEA;
+    float: left;
+    margin: 0 10px 20px;
+    padding: 10px 20px 20px;
+    position: relative;
+    width: 257px;
+}
+.side-deal:hover {
+    border-color: #1d93dd;
+}
+
+.side-deal h3 a, .recent-txt {
+    display: block;
+    font-size: 16px;
+    height: 23px;
+    overflow: hidden;
+    padding: 10px 30px 10px 0;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.side-deal a img {
+    width: 100%;
+    
+}
+.side-deal a {
+    text-decoration: none;
+    color: #1155CC;    
+}
+.side-deal-img {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    color: #FFF;
+    padding-bottom: 4px;
+	height: 250px;
+	width: 250px;
+}
+.side-deal-img span {
+    color: #FFFFFF;
+    display: block;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 12px 0 16px 3px;
+    position: absolute;
+    right: -7px;
+    text-align: center;
+    top: 10px;
+    width: 60px;
+    z-index: 9999999;
+}
+.side-deal-img span sup {
+    font-size: 17px;
+}
+.side-deal div {
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 138px;
+}
+.side-deal div h4 {
+    color: #F99431;
+    font-size: 24px;
+}
+.side-deal div p {
+    font-size: 11px;
+    font-weight: normal;
+}
+.side-deal div p span {
+	display: block;
+}
+.side-deal a.read-deal {
+    background: none repeat scroll 0 0 #43a9e9;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    color: #FFFFFF;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: -48px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.side-deal a.read-deal:hover {
+    background: none repeat scroll 0 0 #1d8acf;
+}
+
+
+ul.side-deal-count li {
+	float: left;
+    padding: 12px 4px 0;
+    text-align: center;
+    width: 82px;
+	font-size: 16px;
+}
+
+
+ul.side-deal-count li.end {
+    width: 159px;
+}
+ul.side-deal-count li span{
+	font-size: 18px;
+	font-weight: bold;
+	display: block;
+}
+
+ul.side-deal-count, ul.clsgridul {
+	border-top: 1px solid #CCCCCC;
+    display: block;
+    list-style: none outside none;
+    overflow: hidden;
+    width: 100% ;
+}
+ul.clsgridul{border: none;}
+
+ul.side-deal-count li {
+	float: left;
+    padding: 12px 4px 0;
+    text-align: center;
+    width: 70px;
+	font-size: 16px;
+}
+
+ul.clsgridul li {
+	float: left;
+    padding: 12px 4px 0;
+    text-align: center;
+    width: 30%;
+	font-size: 16px;
+}
+
+/* ------------------------- TABLE : LIST OF POST -------------------------------- */
+#postTable {
+  position: relative ;
+  top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#postTable thead {
+	width: 100%;
+}
+#postTable td {
+	padding: 5px 5px 5px 0;
+	vertical-align: top;
+}
+#postTable thead th {
+	padding-right: 10px;
+	text-align: left;
+}
+
